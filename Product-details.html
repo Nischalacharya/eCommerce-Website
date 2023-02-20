@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - TechNepal </title>
+    <!-- Link to External CSS-->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?
+    family=poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+    
+<body>
+
+    <div class="container"> 
+        <div class="navbar">
+        <div class="logo">
+            
+            <img src="images/1.jpg" width="100px" >
+        </div>
+
+     <!--Creation of Navigation panel-->
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="Product-details.html">Product-details</a></li>
+                <li><a href="Blog.html">Personal Blog</a></li>
+                <li><a href="References.html">Reference</a></li>
+                <li><a href="Account.html">Account</a></li>
+            
+            </ul>
+            
+        </nav>
+        <a href="cart.html"><img src="images/3.png" width="30px" height="30px"></a>
+        
+        
+    </div>
+</div>
+</div>
+
+
+<!---------single product details-------->
+<div class="small-container single-product"></div>
+
+<div class="small-container">
+    <div class="row">
+        <div class="col-2">
+            <img src="images/7.jpg" width="100%" id="productImg">
+            <div class="small-img-row">
+                <div class="small-img-col">
+                    <img src="images/18.jpg" width="100%" class="small-img" >
+                </div>
+                <div class="small-img-col">
+                    <img src="images/19.jpg" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="images/20.jpg" width="100%" class="smalll-img" >
+                </div>
+                
+            </div>
+        </div>
+        <div class="col-2">
+            <p>Home/Acer Nitro </p>
+            <h1>Gaming Laptop</h1>
+            <h4>$1,399.00</h4>
+            <select >
+                <option >Nitro-5</option>
+                <option >Nitro-7</option>
+                
+            </select>
+            <input type="number" value="1">
+            <a href="" class="btn"> Add To Cart </a>
+            <h3>Product Details</h3>
+            <p>Acer Aspire is a Windows 10 laptop with a 15.60-inch display that has a resolution of 1920x1080 pixels.
+                 It is powered by a Core i7 processor and it comes with 8GB of RAM. 
+                The Acer Aspire packs 1TB of HDD storage.</p>
+        </div>
+    </div>
+</div>
+
+<!--------title--------------->
+
+<div class="small-container">
+    <div class="row row-2">
+        <h2>Related Products</h2>
+        <p><b>View More</p></b>
+    </div>
+</div>
+
+
+<!--------Products--------------->
+   <div class="small-container"></div>
+       
+       <div class="row">
+           <div class="col-4">
+               
+           </div>
+           <div class="row">
+           <div class="col-4">
+               <img src="images/8.jpg" >
+               <h4>Mechanical Backlit Keyboard</h4>
+               <p>$26</p>
+            </div>
+            <div class="col-4">
+               <img src="images/9.jpg"  >
+               <h4>Joystick</h4>
+               <p>$50</p>
+           </div>
+           
+       </div>
+       
+       </div>
+   
+       <!----------footer--------->
+   <div class="footer">
+    <div class="contaner">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download Our App for Android and ios mobile phone</p>
+                <div class="app-logo">
+                    <img src="images/20.png" >
+                    <img src="images/21.png" >
+                </div>
+            </div>
+            
+
+            <div class="footer-col-2">
+             <img src="images/1.jpg" width="10%" >
+             <p>Our purpose is to sustainably make the pleasure and
+                 benefits of Technology Accessible to the many.
+             </p>
+         </div>
+         <div class="footer-col-3">
+             <h3>Useful links</h3>
+             <ul>
+                 <li>Coupons</li>
+                 <li>Blog Post</li>
+                 <li>Return Policy</li>
+                 <li>Join Affiliate</li>
+             </ul>
+
+             
+         </div>
+         <div class="footer-col-4">
+             <h3>Follow us</h3>
+             <ul>
+                 <li>Twitter</li>
+                 <li>Youtube</li>
+                 <li>Facebook</li>
+                 <li>Instagram</li>
+             </ul>
+
+             
+         </div>
+        
+        
+    
+         </div>
+         <hr>
+         <p class="Copyright">Copyright 2022 - Course Work 3</p>
+     
+        </div>
+        
+        
+       
+</div>
+<!----------Internal javascript for one click products--------->
+
+<script>
+    var productImg = document.getElementById("ProductImg");
+    var SmallImg = document.getElementsByClassName("small-img")
+
+    SmallImg[0].onclick = function(){
+        productImg.src = SmallImg[0].src;
+    }
+    SmallImg[1].onclick = function(){
+        productImg.src = SmallImg[1].src;
+    }
+    SmallImg[3].onclick = function(){
+        productImg.src = SmallImg[3].src;
+    }
+</script>
+
+ 
+</body>
+</html>
+       
+       
+
+    
+
+   
